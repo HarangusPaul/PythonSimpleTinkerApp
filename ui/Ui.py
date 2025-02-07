@@ -1,9 +1,9 @@
 import traceback
 
-from service.StudentService import StudentService
+from repository.StudentService import StudentService
 from service.LaboratoryProblem import LaboratoryService
-from service.serviceManager import ServiceManager
-from domain.Validators import StudentExeption
+from repository.serviceManager import ServiceManager
+from repository.Validators import StudentExeption
 
 
 class Ui:

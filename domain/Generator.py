@@ -1,6 +1,6 @@
 from domain.Lab_assigment import Lab_assigment
 from domain.Laboratory import Laboratory
-from domain.Student import Student
+from repository.Student import Student
 
 class Generator:
     def generate_class(self, class_type, string: str):

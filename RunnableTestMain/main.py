@@ -1,13 +1,11 @@
-import unittest
-
 from domain.Lab_assigment import Lab_assigment
 from domain.Laboratory import Laboratory
-from domain.Student import Student
-from repository.Repository import Repository
+from repository.Student import Student
+from service.Repository import Repository
 from repository.FileRepository import FileRepository
 from service.LaboratoryProblem import LaboratoryService
-from service.StudentService import StudentService
-from service.serviceManager import ServiceManager
+from repository.StudentService import StudentService
+from repository.serviceManager import ServiceManager
 from ui.Ui import Ui
 
 

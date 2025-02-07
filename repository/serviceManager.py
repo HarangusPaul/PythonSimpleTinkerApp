@@ -1,6 +1,5 @@
-from domain.Dto import AssigmentDto
 from domain.Lab_assigment import Lab_assigment
-from repository.Repository import Repository
+from service.Repository import Repository
 
 
 class ServiceManager:

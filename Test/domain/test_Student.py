@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from domain.Student import Student
+from repository.Student import Student
 
 
 class TestStudent(TestCase):

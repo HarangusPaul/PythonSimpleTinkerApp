@@ -1,8 +1,8 @@
 import os
 
 from domain.Generator import Generator
-from repository.Repository import Repository
-from domain.Validators import EntityException
+from service.Repository import Repository
+from repository.Validators import EntityException
 
 
 class FileRepository(Repository):

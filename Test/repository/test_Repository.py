@@ -1,6 +1,6 @@
 from unittest import TestCase
-from repository.Repository import Repository
-from domain.Student import Student
+from service.Repository import Repository
+from repository.Student import Student
 
 class TestRepository(TestCase):
     def setUp(self):

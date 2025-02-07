@@ -1,9 +1,5 @@
 from dataclasses import dataclass
 
-from domain.Lab_assigment import Lab_assigment
-from domain.Laboratory import Laboratory
-from domain.Student import Student
-
 
 @dataclass
 class AssigmentDto:

@@ -1,8 +1,8 @@
 from unittest import TestCase
 
-from domain.Student import Student
-from repository.Repository import Repository
-from service.StudentService import StudentService
+from repository.Student import Student
+from service.Repository import Repository
+from repository.StudentService import StudentService
 
 
 class TestStudentService(TestCase):

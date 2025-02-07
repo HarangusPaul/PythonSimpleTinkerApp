@@ -1,6 +1,6 @@
-from domain.Student import Student
-from domain.Validators import EntityValidator
-from repository.Repository import Repository
+from repository.Student import Student
+from repository.Validators import EntityValidator
+from service.Repository import Repository
 
 
 class StudentService:

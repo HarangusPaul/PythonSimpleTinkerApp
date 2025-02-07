@@ -1,6 +1,6 @@
 from domain.Laboratory import Laboratory
-from domain.Validators import EntityValidator
-from repository.Repository import Repository
+from repository.Validators import EntityValidator
+from service.Repository import Repository
 
 
 class LaboratoryService:

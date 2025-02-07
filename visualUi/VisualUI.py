@@ -3,13 +3,12 @@ from tkinter import messagebox
 
 from domain.Lab_assigment import Lab_assigment
 from domain.Laboratory import Laboratory
-from domain.Student import Student
+from repository.Student import Student
 from repository.FileRepository import FileRepository
-from repository.Repository import Repository
-from service.StudentService import StudentService
+from service.Repository import Repository
+from repository.StudentService import StudentService
 from service.LaboratoryProblem import LaboratoryService
-from service.serviceManager import ServiceManager
-from domain.Validators import StudentExeption
+from repository.serviceManager import ServiceManager
 
 
 class TinkererUI:
