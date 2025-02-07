@@ -4,16 +4,16 @@ class Student:
         self.__name_student = str(name)
         self.__group_student = str(grup)
 
-    def get_id(self):
+    def _get_id(self):
         return self.__id_student
 
-    def get_name(self):
+    def _get_name(self):
         return self.__name_student
 
-    def get_group(self):
+    def _get_group(self):
         return self.__group_student
 
-    def set_id(self, value):
+    def _set_id(self, value):
         self.__id_student = value
 
     def set_name(self, value):
@@ -22,10 +22,10 @@ class Student:
     def set_group(self, value):
         self.__group_student = value
 
-    def __str__(self):
+    def __str(self):
         return "{0}/{1}/{2}\n".format(self.__id_student, self.__name_student, self.__group_student)
 
-    def __eq__(self, other):
+    def __eq(self, other):
         return self.__id_student == other.get_id() and self.__name_student == other.get_name() \
                and self.__group_student == other.get_group()
 

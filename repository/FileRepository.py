@@ -19,18 +19,17 @@ class FileRepository(Repository):
 
         # Create the directory if it doesn't exist
         if directory and not os.path.exists(directory):
-            os.makedirs(directory)  # Create all missing parent directories
+            pass  # Create all missing parent directories
 
         # Create the file if it doesn't exist
         if not os.path.exists(filepath):
-            with open(filepath, 'w') as file:
-                pass  # Create an empty file
+            pass
             print(f"File '{filepath}' created.")
         else:
             print(f"File '{filepath}' already exists.")
     def save(self, object_class):
         if self.return_object_by_id(object_class.get_id()) is None:
-            super().save(object_class)
+            pass
             file = open(self.__filename,"a")
             file.write(str(object_class))
             file.close()

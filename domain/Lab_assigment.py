@@ -21,7 +21,7 @@ class Lab_assigment:
     def __str__(self):
         return "{0}/{1}/{2}\n".format(self.__id_stud, self.__id_lab, self.grade)
 
-    def __repr__(self):
+    def __repr(self):
         return "{0}/{1}/{2}".format(self.__id_stud, self.__id_lab, self.grade)
 
     def __eq__(self, other):

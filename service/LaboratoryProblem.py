@@ -20,8 +20,8 @@ class LaboratoryService:
         validator = EntityValidator()
         validator.validate_student(self.__Laboratory_Service.return_all(),id_lab)
 
-        lab = Laboratory(id_lab, lab_number, problem_number, description, deadline)
-        self.__Laboratory_Service.save(lab)
+
+        self.__Laboratory_Service.save(None)
 
     def del_lab(self,id_lab):
         lab = self.__Laboratory_Service.return_object_by_id(id_lab)
@@ -41,8 +41,3 @@ class LaboratoryService:
 
     def return_all_labs(self):
         return self.__Laboratory_Service.return_all()
-
-    # def add_labs(self):
-    #     self.add_lab(1, 1, 3, "Plm", "10:10")
-    #     self.add_lab(2, 3, 2, "Plm", "10:11")
-    #     self.add_lab(3, 2, 1, "Plm", "10:9")
