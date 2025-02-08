@@ -172,9 +172,9 @@ if __name__ == "__main__":
         app = TinkererUI(root, stud_Service, lab_Service, assigment_service)
         root.mainloop()
     else:
-        student_Rep = FileRepository("Files/Student_File_Repository", Student)
-        lab_Rep = FileRepository("Files/Laboratory_File_Repository", Laboratory)
-        assigment_Rep = FileRepository("Files/Assigments_File_Repository", Lab_assigment)
+        student_Rep = FileRepository("../Files/Student_File_Repository", Student)
+        lab_Rep = FileRepository("../Files/Laboratory_File_Repository", Laboratory)
+        assigment_Rep = FileRepository("../Files/Assigments_File_Repository", Lab_assigment)
 
         assigment_service = ServiceManager(assigment_Rep, student_Rep)
         stud_Service = StudentService(student_Rep)
